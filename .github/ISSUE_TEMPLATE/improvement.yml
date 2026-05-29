@@ -1,0 +1,30 @@
+name: Improvement idea
+description: Suggest an improvement to Club In A Box.
+title: "[Improvement]: "
+labels: ["improvement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be improved?
+      description: Describe the guide, template, example, or workflow that needs work.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Tell us what kind of club, institution, audience, or use case this relates to.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: If you have a proposed fix, outline it here.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be interested in opening a pull request for this.
+        - label: I can share an example from my club.
+

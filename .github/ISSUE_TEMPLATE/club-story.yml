@@ -1,0 +1,32 @@
+name: Club story
+description: Share how your club used or adapted Club In A Box.
+title: "[Club story]: "
+labels: ["case study"]
+body:
+  - type: input
+    id: club
+    attributes:
+      label: Club or community name
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: How did you use Club In A Box?
+      description: Tell us what you copied, changed, ignored, or built on.
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked?
+  - type: textarea
+    id: improve
+    attributes:
+      label: What should this repository improve?
+  - type: input
+    id: link
+    attributes:
+      label: Public link
+      description: Optional link to your club website, repository, or materials.
+

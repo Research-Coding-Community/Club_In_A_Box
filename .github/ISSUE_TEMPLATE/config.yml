@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Coding Club website template
+    url: https://github.com/Research-Coding-Community/Coding_Club_Template
+    about: Use this template if your club needs a simple website.
+  - name: Example club website repository
+    url: https://github.com/Research-Coding-Community/biocode_club
+    about: See an example club that has used the website template.
+

@@ -1,0 +1,30 @@
+name: New template request
+description: Request a new reusable template, checklist, or playbook.
+title: "[Template request]: "
+labels: ["template", "help wanted"]
+body:
+  - type: input
+    id: template-name
+    attributes:
+      label: Template name
+      placeholder: e.g. Hybrid session checklist
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What need would this meet?
+      description: Explain the recurring task or problem this template should help with.
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Who would use it?
+      description: Describe the organisers, facilitators, attendees, or clubs that would benefit.
+  - type: textarea
+    id: existing
+    attributes:
+      label: Existing examples
+      description: Link or describe anything similar that could be adapted.
+
