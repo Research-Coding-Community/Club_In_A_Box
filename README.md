@@ -22,6 +22,10 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
+The website is deployed with GitHub Actions from `.github/workflows/deploy-pages.yml`.
+In the GitHub repository settings, set Pages to use **GitHub Actions** as the source.
+After that, pushes to `main` will publish the site automatically.
+
 ## What This Helps You Do
 
 - Start a new coding, data, software, AI, reproducibility, or digital research club.
